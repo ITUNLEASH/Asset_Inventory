@@ -1,9 +1,9 @@
--- In MySQL Workbench it's better to create the Database and the Master Table on the initial statement.
--- Instead of typing CREATE DATABASE BRICORP_Asset_Management type CREATE TABLE TableName.DatabaseName
+-- XName is the name that you will be assigned to your Database.
+CREATE DATABASE XName_Asset_Inventory;
 
-CREATE DATABASE BRICORP_Asset_Inventory;
-
-USE BRICORP_Asset_Inventory;
+-- (In case their are more databases open in MySQL Workbench)
+-- MySQL Query to specify the Database from the list you'll be working on. 
+USE XCompany_Asset_Inventory;
 
 CREATE TABLE MacOS_Assets
 (
